@@ -1,0 +1,33 @@
+body{
+    background-color: #282D35;
+    color: azure;
+    background-image: url(reactjs-icon.png);
+    background-size: 15em;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+
+
+.maincontent{
+    width:50%;
+    
+    margin: 0 auto;
+    font-size: 2em;
+    letter-spacing: -0.05em;
+}
+li{
+    margin: 1em 0;
+}
+.ul{
+    padding-top: 0.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+ul > ::marker{
+    color:#61DAFB;
+    font-size: 1.2em;
+    content: ' * ';
+
+}
